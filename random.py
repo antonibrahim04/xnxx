@@ -51,7 +51,7 @@ pwx = []
 
 s = requests.Session()
 rgb = random.choice(['\x1b[0;91m', '\x1b[0;91m', '\x1b[0;91m', '\x1b[0;91m', '\x1b[0;91m', '\x1b[0;91m', '\x1b[0;91m', '\x1b[0m'])
-ua = "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"])
+ua = "Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 ip = s.get('https://api.ipify.org').text
 durasi = str(datetime.now().strftime('%d-%m-%Y'))
 
